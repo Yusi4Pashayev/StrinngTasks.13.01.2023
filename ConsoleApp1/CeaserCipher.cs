@@ -72,5 +72,6 @@ namespace TaskString
         {
             Console.WriteLine(a);
         }
+
     }
 }
