@@ -19,13 +19,13 @@ namespace TaskString
                 {
                     if (char.IsUpper(str[i]))
                     {
-                        a = ((str[i] + slide) - 64) % 26 + 64;
+                        a = ((str[i] + slide) - 65) % 26 + 65;
                         code += (char)a;
                     }
 
                     else if (char.IsLower(str[i]))
                     {
-                        a = ((str[i] + slide) - 96) % 26 + 96;
+                        a = ((str[i] + slide) - 97) % 26 + 97;
                         code += (char)a;
                     }
                 }
