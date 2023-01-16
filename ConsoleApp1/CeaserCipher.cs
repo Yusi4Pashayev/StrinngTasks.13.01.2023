@@ -41,6 +41,7 @@ namespace TaskString
         {
             string decode = "";
             int a;
+            slide = slide % 26;
 
             for (int i = 0; i < str.Length; i++)
             {
